@@ -5,7 +5,7 @@
 
 void DataN(int m, int n)
 {
-    if (m != n) 
+    if (m <= n) 
     {
         DataN(m, n - 1);
         Console.Write($"{n} ");
